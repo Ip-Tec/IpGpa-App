@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "IpGpa",
+    "slug": "IpGpa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/GPA_Calculator.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/GPA_Calculator.png",
+      "resizeMode": "contain",
+      "width": "200",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/GPA_Calculator.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/GPA_Calculator.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": { "sqlite": { "logLevel": "debug" } }
+  }
+}
